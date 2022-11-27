@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.container {
+  background-color: #d69068;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  margin: 100px auto auto auto;
+  padding: 30px;
+  width: 50%;
+}
+.container .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.container .form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .form div label {
+  font-size: 20px;
+  padding: 10px;
+  width: 100%;
+}
+.container .form div input {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+.container .form div select {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+.container .form .title {
+  text-align: center;
+}
+.container .form .buttonRedirect {
+  background-color: rgb(69, 105, 130);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 20px auto;
+  padding: 10px;
+  width: 50%;
+}
+.container .form .buttonRedirect:hover {
+  background-color: rgb(38, 53, 110);
+}
+
+.header {
+  background-color: #fbab7e;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.header .category {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 10px;
+  width: 60%;
+}
+.header .category div {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.header .category div h2 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.header .category div div {
+  display: none;
+}
+.header .category div div form input {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+}
+.header .category div div form input:hover {
+  background-color: #f19066;
+}
+.header .category div:hover div {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #fbab7e;
+}
+.header .category div:hover div a {
+  padding: 10px 0;
+}
+.header .category div:hover div a:hover {
+  background-color: #f19066;
+}
+.header .user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  padding: 0 10px;
+}
+.header .user h2 {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.buttonStyle {
+  background-color: #fbab7e;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+}
+.buttonStyle:hover {
+  background-color: #f19066;
+}
+
+.table {
+  background-color: #fbab7e;
+  border-collapse: collapse;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  margin: 100px auto auto auto;
+  padding: 30px;
+  width: 100%;
+}
+.table th,
+.table td {
+  padding: 10px;
+  text-align: center;
+}
+.table tr:nth-child(2), .table tr:nth-child(4), .table tr:nth-child(6), .table tr:nth-child(8), .table tr:nth-child(10), .table tr:nth-child(12), .table tr:nth-child(14), .table tr:nth-child(16), .table tr:nth-child(18), .table tr:nth-child(20) {
+  background-color: #f19066;
+}
+
+.title {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(63, 63, 63);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}/*# sourceMappingURL=index.css.map */
